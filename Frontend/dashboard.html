@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>My Notes</h1>
+
+<button onclick="logout()">Logout</button>
+
+<h3>Add Note</h3>
+<input id="title" placeholder="Title">
+<input id="content" placeholder="Content">
+<button id="addBtn" onclick="addNote()">Add</button>
+
+<ul id="notesList"></ul>
+
+<script src="api.js"></script>
+<script src="notes.js"></script>
+</body>
+</html>
